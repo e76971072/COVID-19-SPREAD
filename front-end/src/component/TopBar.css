@@ -1,0 +1,28 @@
+
+.containerTopBar  {
+    display:  flex;   
+    text-align: center;  
+    align-items: center; 
+    width: 70%;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    .containerTopBar  {
+        display: block;  
+        text-align: center;  
+        align-items: center; 
+        width: 70%;
+        position: relative;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        padding: 10px;
+    
+    }
+    
+}
